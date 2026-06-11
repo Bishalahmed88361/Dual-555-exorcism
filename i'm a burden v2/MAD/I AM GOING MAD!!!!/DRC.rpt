@@ -1,0 +1,52 @@
+** Drc report for i'm a burden v2.kicad_pcb **
+** Created on 2026-06-10T01:17:38 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 0 DRC violations **
+
+** Found 9 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(95.2000 mm, 52.2000 mm): Track [/+] on B.Cu, length 2.4000 mm
+    @(94.2000 mm, 54.2000 mm): Track [/+] on B.Cu, length 1.4000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(105.2000 mm, 54.6000 mm): Track [/+] on B.Cu, length 4.0000 mm
+    @(105.2000 mm, 52.6000 mm): Track [/+] on B.Cu, length 4.6000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.1000 mm, 47.8500 mm): Track [/+] on F.Cu, length 3.8891 mm
+    @(111.2000 mm, 47.8000 mm): Track [/+] on B.Cu, length 7.0000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.0000 mm, 54.6000 mm): Track [/+] on B.Cu, length 4.0000 mm
+    @(119.0000 mm, 52.6000 mm): Track [/+] on B.Cu, length 3.0000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.0000 mm, 46.6000 mm): Track [/+] on B.Cu, length 20.2000 mm
+    @(124.1500 mm, 45.1500 mm): Track [/+] on F.Cu, length 1.4000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.0000 mm, 54.7000 mm): Track [/+] on B.Cu, length 3.7000 mm
+    @(133.0000 mm, 52.7000 mm): Track [/+] on B.Cu, length 2.9000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.7500 mm, 47.6500 mm): Track [/+] on F.Cu, length 4.4548 mm
+    @(136.6000 mm, 45.4000 mm): Track [/+] on B.Cu, length 33.2000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.4000 mm, 54.6000 mm): Track [/+] on B.Cu, length 3.8000 mm
+    @(146.4000 mm, 52.6000 mm): Track [/+] on B.Cu, length 2.6000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(150.2000 mm, 54.6000 mm): Track [/+] on F.Cu, length 2.6000 mm
+    @(152.8000 mm, 51.5000 mm): Track [/+] on F.Cu, length 4.1500 mm
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

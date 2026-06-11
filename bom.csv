@@ -1,0 +1,9 @@
+﻿Name,Quantity,Component
+"U1",1," Timer"
+"D1",1,"Red LED"
+"JP1",1," USB standard A"
+"R1",1,"8 kΩ Resistor"
+"R2",1,"68 kΩ Resistor"
+"C1",1,"10 uF Capacitor"
+"C2",1,"0.1 uF Capacitor"
+"R3",1,"4.7 kΩ Resistor"

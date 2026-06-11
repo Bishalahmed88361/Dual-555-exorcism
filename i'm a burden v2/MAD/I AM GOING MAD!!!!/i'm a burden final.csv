@@ -1,0 +1,15 @@
+Reference,Value,Datasheet,Footprint,Qty,DNP,Description
+"BAT+1,BAT-1",Conn_01x01,,Connector_Wire:SolderWire-2sqmm_1x01_D2mm_OD3.9mm,2,,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+"C1,C5,C8",100nf,,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,3,,Unpolarized capacitor
+"C2,C7",10uf,,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,2,,Unpolarized capacitor
+"C3,C6",10nf,,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,2,,Unpolarized capacitor
+C4,47uf,,Capacitor_THT:CP_Radial_D8.0mm_P3.80mm,1,,Unpolarized capacitor
+"LED1+1,LED1-1,LED2+1,LED2-1,LED3+1,LED3-1,LED4+1,LED4-1",Conn_01x01,,Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm,8,,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+"LED1_SW1,LED2_SW1,LED3_SW1,LED4_SW1,M_SW1",SW_SPDT,,Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q,5,,"Switch, single pole double throw"
+Q1,BC547,https://www.onsemi.com/pub/Collateral/BC550-D.pdf,Package_TO_SOT_THT:TO-92_Wide,1,,"0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+"R1,R3,R5",10k,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,3,,Resistor
+R2,220ohm,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,1,,Resistor
+R4,68k,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,1,,Resistor
+R6,4.7k,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,1,,Resistor
+"R7,R8,R9,R10",330ohm,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,4,,Resistor
+"U3,U4",NE555D,http://www.ti.com/lit/ds/symlink/ne555.pdf,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,2,,"Precision Timers, 555 compatible, SOIC-8"

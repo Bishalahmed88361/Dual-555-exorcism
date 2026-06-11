@@ -1,0 +1,3113 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\Blackbird-71\\Documents\\I'm a burden\\i'm a burden v2\\i'm a burden v2.3.kicad_sch")
+		(date "2026-06-10T04:22:18")
+		(tool "Eeschema 10.0.3")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "Notification Blinks")
+				(company "Bishal Ahmed")
+				(rev)
+				(date "2026-06-07")
+				(source "i'm a burden v2.3.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "BAT+1")
+			(value "Conn_01x01")
+			(footprint "Connector_Wire:SolderWire-2sqmm_1x01_D2mm_OD3.9mm")
+			(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "Connector_Wire:SolderWire-2sqmm_1x01_D2mm_OD3.9mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "988ff04a-b5d7-407b-9a3f-884561004263")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "BAT-1")
+			(value "Conn_01x01")
+			(footprint "Connector_Wire:SolderWire-2sqmm_1x01_D2mm_OD3.9mm")
+			(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "Connector_Wire:SolderWire-2sqmm_1x01_D2mm_OD3.9mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "aa42e939-32a1-446f-a8c2-b363dd173165")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "100nf")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a30eb36d-d9e7-416f-8770-35ccf3212ca7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "10uf")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3307fed4-9aaa-41bf-9423-38f93bad728c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "10nf")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "87f6b1d9-5a47-47c7-8160-73d8f8e81868")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "47uf")
+			(footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1a5a8b6b-540b-468f-a033-03fe1500e70c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "100nf")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2748599b-22eb-426a-b11f-f15ad4f03a11")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "10nf")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "aaed428e-309c-407c-8c23-24562c6e7350")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "10uf")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fbe27581-2618-4eef-8fcd-d596d557cae4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "100nf")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4fe4c15d-9943-423e-b684-38913e748320")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H1")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_3.2mm_M3")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9988103a-f739-41de-b82e-a302255ed724")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_3.2mm_M3")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ab4a8d31-b6ea-4cb2-bfd1-9eea26795ed7")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H3")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_3.2mm_M3")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5c248049-8655-4b0f-b671-a217b4168a45")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H4")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_3.2mm_M3")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3a076f05-7737-4d97-8bb6-d062d43991d1")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "LED1+1")
+			(value "Conn_01x01")
+			(footprint "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm")
+			(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "")
+				(part "Conn_01x01_1")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "33cb3c64-83ea-42cf-bec9-f0f69f0ba643")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED1-1")
+			(value "Conn_01x01")
+			(footprint "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm")
+			(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bbbeb478-cfa3-45d2-b16d-9d9312455bc5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED1_SW1")
+			(value "SW_SPDT")
+			(footprint "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q")
+			(description "Switch, single pole double throw")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Switch, single pole double throw")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_SPDT")
+				(description "Switch, single pole double throw")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch single-pole double-throw spdt ON-ON")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "940b453e-0263-418c-bc87-24894d1ce570")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED2+1")
+			(value "Conn_01x01")
+			(footprint "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm")
+			(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "be20f78e-94cd-4974-8474-f3abc4f15bbe")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED2-1")
+			(value "Conn_01x01")
+			(footprint "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm")
+			(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "71caf033-ee13-4440-9af3-6d4f4f7a94d4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED2_SW1")
+			(value "SW_SPDT")
+			(footprint "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q")
+			(description "Switch, single pole double throw")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Switch, single pole double throw")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_SPDT")
+				(description "Switch, single pole double throw")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch single-pole double-throw spdt ON-ON")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ddb2f8e5-6575-41e3-a31d-ea1ef9855aa8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED3+1")
+			(value "Conn_01x01")
+			(footprint "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm")
+			(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c7f5ea53-2d26-4623-8c9c-887a41876f53")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED3-1")
+			(value "Conn_01x01")
+			(footprint "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm")
+			(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cec9efd2-4e3d-43a1-b307-385d58c08c0d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED3_SW1")
+			(value "SW_SPDT")
+			(footprint "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q")
+			(description "Switch, single pole double throw")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Switch, single pole double throw")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_SPDT")
+				(description "Switch, single pole double throw")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch single-pole double-throw spdt ON-ON")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e9014c7a-b6c7-4504-af18-844e4e8204d6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED4+1")
+			(value "Conn_01x01")
+			(footprint "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm")
+			(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "54ce49c2-1944-49d6-bd1e-57f9ad1f13f0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED4-1")
+			(value "Conn_01x01")
+			(footprint "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm")
+			(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c26838ce-cd61-4595-a0b9-24f56ea0538d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED4_SW1")
+			(value "SW_SPDT")
+			(footprint "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q")
+			(description "Switch, single pole double throw")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Switch, single pole double throw")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_SPDT")
+				(description "Switch, single pole double throw")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch single-pole double-throw spdt ON-ON")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "63c420bb-600f-4324-bc36-2efaa76a538b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "M_SW1")
+			(value "SW_SPDT")
+			(footprint "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q")
+			(description "Switch, single pole double throw")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Switch, single pole double throw")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_SPDT")
+				(description "Switch, single pole double throw")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch single-pole double-throw spdt ON-ON")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4dbe16af-67c8-4cbe-a978-d48a0dca2d45")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "BC547")
+			(footprint "Package_TO_SOT_THT:TO-92_Wide")
+			(datasheet "https://www.onsemi.com/pub/Collateral/BC550-D.pdf")
+			(description "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92")
+			(fields
+				(field
+					(name "Sim.Device") "NPN")
+				(field
+					(name "Sim.Pins") "1=C 2=B 3=E")
+				(field
+					(name "Footprint") "Package_TO_SOT_THT:TO-92_Wide")
+				(field
+					(name "Datasheet") "https://www.onsemi.com/pub/Collateral/BC550-D.pdf")
+				(field
+					(name "Description") "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92")
+			)
+			(libsource
+				(lib "Transistor_BJT")
+				(part "BC547")
+				(description "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92")
+			)
+			(property
+				(name "Sim.Device")
+				(value "NPN")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=C 2=B 3=E")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "NPN Transistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO?92*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f043d028-43dc-4989-9b8d-2e1d2fdd5b7e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "10k")
+			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ccdedc3d-634c-44b6-8ea8-023a0169413b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "220ohm")
+			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "443ebaf0-cec2-41fc-bd0f-0acc2e9081b4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "10k")
+			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9afab5f8-aa87-4087-a2b2-42e86e6ce26b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "68k")
+			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9b136572-2ca9-4513-9dfa-6441b832b0eb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "10k")
+			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5f54011b-ff41-4712-bf8c-73c6ad54764e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "4.7k")
+			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "60c72ac7-d911-4f43-bdb1-c0c17fab395e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "330ohm")
+			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "edcb02f9-d854-4ef0-a195-1558ff43cc36")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "330ohm")
+			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0f7e19ba-9e70-4076-aafb-f7b7042768ba")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "330ohm")
+			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c4b4328d-7bf7-41d7-bccd-4e5047baa370")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "330ohm")
+			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "09baab4e-b399-4004-884d-f08f42dad3a5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "NE555D")
+			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(datasheet "http://www.ti.com/lit/ds/symlink/ne555.pdf")
+			(description "Precision Timers, 555 compatible, SOIC-8")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/ne555.pdf")
+				(field
+					(name "Description") "Precision Timers, 555 compatible, SOIC-8")
+			)
+			(libsource
+				(lib "Timer")
+				(part "NE555D")
+				(description "Precision Timers, 555 compatible, SOIC-8")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "single timer 555")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*3.9x4.9mm*P1.27mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "68e6c333-a2ab-4088-9129-6cc5a6d68b8d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U4")
+			(value "NE555D")
+			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(datasheet "http://www.ti.com/lit/ds/symlink/ne555.pdf")
+			(description "Precision Timers, 555 compatible, SOIC-8")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/ne555.pdf")
+				(field
+					(name "Description") "Precision Timers, 555 compatible, SOIC-8")
+			)
+			(libsource
+				(lib "Timer")
+				(part "NE555D")
+				(description "Precision Timers, 555 compatible, SOIC-8")
+			)
+			(property
+				(name "Sheetname")
+				(value "i'm a burden v2.3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "i'm a burden v2.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "single timer 555")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*3.9x4.9mm*P1.27mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6f10dd5b-bb7d-4c8e-b449-449693dfde1c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "")
+			(part "Conn_01x01_1")
+			(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x01")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x01")
+			(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x01")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Mechanical")
+			(part "MountingHole")
+			(description "Mounting Hole without connection")
+			(footprints
+				(fp "MountingHole*")
+			)
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+		)
+		(libpart
+			(lib "Switch")
+			(part "SW_SPDT")
+			(description "Switch, single pole double throw")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_SPDT")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Switch, single pole double throw")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "B")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "C")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Timer")
+			(part "NE555D")
+			(description "Precision Timers, 555 compatible, SOIC-8")
+			(docs "http://www.ti.com/lit/ds/symlink/ne555.pdf")
+			(footprints
+				(fp "SOIC*3.9x4.9mm*P1.27mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "NE555D")
+				(field
+					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/ne555.pdf")
+				(field
+					(name "Description") "Precision Timers, 555 compatible, SOIC-8")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "TRIG")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "OUT")
+					(type "output")
+				)
+				(pin
+					(num "4")
+					(name "~{RST}")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "CONT")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "THRES")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "DISCH")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "VCC")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Transistor_BJT")
+			(part "BC547")
+			(description "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92")
+			(docs "https://www.onsemi.com/pub/Collateral/BC550-D.pdf")
+			(footprints
+				(fp "TO?92*")
+			)
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "BC547")
+				(field
+					(name "Footprint") "Package_TO_SOT_THT:TO-92_Inline")
+				(field
+					(name "Datasheet") "https://www.onsemi.com/pub/Collateral/BC550-D.pdf")
+				(field
+					(name "Description") "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92")
+				(field
+					(name "Sim.Device") "NPN")
+				(field
+					(name "Sim.Pins") "1=C 2=B 3=E")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "C")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "B")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "E")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Connector_Generic")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Mechanical")
+			(uri "${KICAD10_SYMBOL_DIR}/Mechanical.kicad_sym")
+		)
+		(library
+			(logical "Switch")
+			(uri "${KICAD10_SYMBOL_DIR}/Switch.kicad_sym")
+		)
+		(library
+			(logical "Timer")
+			(uri "${KICAD10_SYMBOL_DIR}/Timer.kicad_sym")
+		)
+		(library
+			(logical "Transistor_BJT")
+			(uri "${KICAD10_SYMBOL_DIR}/Transistor_BJT.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/+")
+			(class "Power,Default")
+			(node
+				(ref "BAT+1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED1_SW1")
+				(pin "3")
+				(pinfunction "C_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED2_SW1")
+				(pin "3")
+				(pinfunction "C_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED3_SW1")
+				(pin "3")
+				(pinfunction "C_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED4_SW1")
+				(pin "3")
+				(pinfunction "C_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "M_SW1")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "M_SW1")
+				(pin "3")
+				(pinfunction "C_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "~{RST}_4")
+				(pintype "input")
+			)
+			(node
+				(ref "U4")
+				(pin "4")
+				(pinfunction "~{RST}_4")
+				(pintype "input")
+			)
+			(node
+				(ref "U4")
+				(pin "8")
+				(pinfunction "VCC_8")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "2")
+			(name "/-")
+			(class "GND,Default")
+			(node
+				(ref "BAT-1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "E_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "3")
+			(name "/Bridged")
+			(class "Default")
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "TRIG_2")
+				(pintype "input")
+			)
+			(node
+				(ref "U4")
+				(pin "6")
+				(pinfunction "THRES_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "4")
+			(name "/DIS_BRIDGE")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "7")
+				(pinfunction "DISCH_7")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "5")
+			(name "/L1")
+			(class "Default")
+			(node
+				(ref "LED1+1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/L2")
+			(class "Default")
+			(node
+				(ref "LED2+1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/L3")
+			(class "Default")
+			(node
+				(ref "LED3+1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/L4")
+			(class "Default")
+			(node
+				(ref "LED4+1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/LR1")
+			(class "Default")
+			(node
+				(ref "LED1_SW1")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/LR2")
+			(class "Default")
+			(node
+				(ref "LED2_SW1")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "/LR3")
+			(class "Default")
+			(node
+				(ref "LED3_SW1")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "/LR4")
+			(class "Default")
+			(node
+				(ref "LED4_SW1")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "/T_B")
+			(class "Default")
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "input")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "/T_C")
+			(class "Default")
+			(node
+				(ref "LED1-1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED2-1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED3-1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED4-1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "C_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "/U1_OUT")
+			(class "U1,Default")
+			(node
+				(ref "C8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "3")
+				(pinfunction "OUT_3")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "16")
+			(name "/U2_Bridge")
+			(class "U2,Default")
+			(node
+				(ref "C7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "6")
+				(pinfunction "THRES_6")
+				(pintype "input")
+			)
+			(node
+				(ref "U3")
+				(pin "7")
+				(pinfunction "DISCH_7")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "17")
+			(name "/U2_TRIG")
+			(class "U2,Default")
+			(node
+				(ref "C8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "TRIG_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "18")
+			(name "Net-(U3-CONT)")
+			(class "Default")
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "5")
+				(pinfunction "CONT_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "Net-(U3-OUT)")
+			(class "Default")
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "OUT_3")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "20")
+			(name "Net-(U3-VCC)")
+			(class "Default")
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "8")
+				(pinfunction "VCC_8")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "21")
+			(name "Net-(U4-CONT)")
+			(class "Default")
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "5")
+				(pinfunction "CONT_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "unconnected-(LED1_SW1-A-Pad1)")
+			(class "Default")
+			(node
+				(ref "LED1_SW1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "unconnected-(LED2_SW1-A-Pad1)")
+			(class "Default")
+			(node
+				(ref "LED2_SW1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "unconnected-(LED3_SW1-A-Pad1)")
+			(class "Default")
+			(node
+				(ref "LED3_SW1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "unconnected-(LED4_SW1-A-Pad1)")
+			(class "Default")
+			(node
+				(ref "LED4_SW1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "unconnected-(M_SW1-A-Pad1)")
+			(class "Default")
+			(node
+				(ref "M_SW1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+		)
+	)
+)
